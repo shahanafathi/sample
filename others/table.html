@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- {% load static %} -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'table.css' %}">
+</head>
+<body>
+    <form action="{% url 'registerpg' %}" method="post">
+        {% csrf_token %}
+        <input type="search" name="schoolname" required>
+        <button>Search</button>
+    </form>
+    <table>
+        <tr>
+            {% i in m_data %}
+        <th>Schll Name </th>
+        <th>District</th>
+        <th>Address</th>
+        <th>phoneNo</th>
+        <th>Email</th>
+        <th>Password</th>
+    </tr>
+    {% endfor %}
+    <tr>
+        <td>{{i.schlname}}</td>
+        <td>{{i.district}}</td>
+        <td>{{i.address}}</td>
+        <td>{{i.phoneno}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.password}}</td>
+        <td>{{i.id}}</td>
+        <td>
+            <a href="{% url 'delete' id=i.id %}"><button>Delete</button></a>
+            <a href="{% url 'edits' id=i.id %}"><button>Edit</button></a>
+        </td>
+    </tr>
+    </table>
+    
+</body>
+</html>

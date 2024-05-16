@@ -1,0 +1,27 @@
+.a{
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    opacity: none;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 80px;
+    z-index: 1;
+    
+}
+.a1{
+    float: left;
+    margin-left: 5%;
+    font-size: x-large;
+    color: rgb(205, 27, 214);
+    
+
+   
+}
+.s{
+    margin-left:40%;
+    display:inline-flex;
+    list-style-type: none;
+    width: 10%;
+}

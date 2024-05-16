@@ -1,0 +1,57 @@
+.inp{
+    background-color:transparent;
+    border: none;
+    font-size:large;
+    
+}
+    
+
+    .inp:focus{
+        background-color: white;
+        border: 1px solid black;
+        font-size:large;
+        text-align: justify;
+   }  
+
+
+.subject{
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    width: 380px;
+    font-size:large;
+    text-align: justify;
+}
+
+.subject:focus{
+       background-color: white;
+       border: 1px solid black;
+       font-size:large;
+       text-align: justify;
+}  
+
+
+textarea{
+    text-align: justify;
+    border: none;
+    border-style: none;
+    background-color:transparent;
+    margin-top: 20px;
+    width: 380px;
+    height: 230px;
+    font-size:large;
+}
+
+
+textarea :focus{
+    text-align: justify;
+    background-color: white;
+    border: 1px solid black;
+    font-size:large;
+}  
+
+       
+.cpyrgt{
+    margin-top: 25px;
+    text-align: center;
+    color: grey;}

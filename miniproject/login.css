@@ -1,0 +1,62 @@
+/* 
+.form input[type="text"]{
+        width: 100%; 
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing:content;
+        border-bottom:2px;
+}
+.form{
+    font-size: larger;
+    font-weight: 200;
+}
+
+h3 {
+    font-family: 'Inknut Antiqua'; 
+    font-size:xx-large; 
+    font: weight 400px;;
+    text-align:center;
+    margin-left:50px;
+}
+.abc{
+    background-color: #16e4a3;
+} */
+
+
+
+.abc1{
+    display:flex; 
+    justify-content: center;
+    padding-top: 25px;
+    padding-left:25px;
+}
+
+.a1{
+    float: inline-start;
+    margin-left:60px;
+}
+.a2{
+    float: inline-end ;
+    margin-left:40px;
+    margin-right :70px;
+}
+
+.form{
+    border-radius: 20px ;
+}
+
+.form input[type="text"]{
+    width: 100%; 
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing:content;
+    border-bottom:2px;
+}

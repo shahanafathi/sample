@@ -1,0 +1,136 @@
+.a{
+    background-color:#002633;;
+    color: white;
+    width: 100%;
+    height: 120px;
+    margin-top: 0%;
+}
+.a1{
+    float: left;
+    margin-left: 10px;
+    font-size:xx-large ;
+    margin-bottom: 20px;
+}
+.a2{
+
+    list-style-type: none;
+    justify-content:end;
+    margin-right:20px;
+    display: flex;
+    text-decoration: none;
+    
+    
+}
+li { 
+    
+    margin-top: 30px;
+    display: inline;
+    padding: 22px;
+    font-size: medium;
+   text-align: center;
+   text-decoration: none;
+    
+}
+li a.homei{
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    padding: 20px 15px 20px 15px; 
+    width: 20px;
+    height: 15px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+}
+ li a:hover{
+    background-color: red;
+    padding: 15px 15px 15px 15px; 
+ }
+
+ .b{
+    background-image: url(newpro.jpg);
+    height: 600px;
+    position: relative;
+ }
+ .b1{
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  color: white;
+  font-size: xx-large;
+  padding:15px 130px 16px 0px ;
+ 
+ }
+ .b3{
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    background-color: white;
+    color: black;
+    margin-top:0px;
+    padding:10px 5px 10px 0px;
+ }
+ .c{
+background-color: #002633;
+height: 400px;
+width: 100%;
+ }
+ .c21{
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 40px 40px 40px 40px;
+    background-color: red;
+    color:white;
+ }
+h5{
+    text-align: center;
+    font-size: large;
+}
+.bi{
+    margin-left: 30%;
+}
+.c22{
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 40px 40px 40px 40px;;
+    background-color: #005881;
+    color:white;
+}
+.c12{
+    float:left;
+    margin-bottom: 20px;
+    margin-top:20px;
+    margin-right:20px;
+    padding:  40px 40px 40px 40px;;
+    background-color:#E4A600 ;
+    color:white;
+    margin-left: 0%;
+}
+.c34{
+    float:left;
+    margin-bottom: 20px;
+    margin-top: 17px;
+    margin-right: 20px;
+    padding: 40px 40px 40px 40px;
+    background-color:  #00B5A6;
+    color:white;
+    f
+}
+.php{
+    float: right;
+    
+}
+.equal{
+    background-color: #002633;
+    width: 100%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    margin-top: 170px;
+}

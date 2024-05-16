@@ -1,0 +1,19 @@
+body{
+    position:relative;
+}
+
+.user{
+    position:absolute;
+    display:block;
+    background-color: rgb(2, 2, 57);
+    color: white;
+    width:300px;
+    height:300px;
+}
+.user1{
+    position: absolute;
+}
+
+.user2{
+    position: absolute;
+}

@@ -1,0 +1,99 @@
+body{
+  background-image: url("bank.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.container{
+
+  /* background-color: #87b4a6;
+  justify-content: center;
+  width: 900px;
+  height: 600px; 
+  align-items: center;
+  border-radius: 20px;
+  align-content: flex-start; */
+}
+
+.container  input[type="text"]{
+  width: 80%; 
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing:content;
+  border-bottom:2px;
+  border-left: none;
+  border-left: none;
+  border-left: none;
+}
+.container  input[type="email"]{
+  width: 80%; 
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing:content;
+  border-bottom:2px;
+  border-left: none;
+ 
+}
+.container  input[type="number"]{
+  width: 80%; 
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing:content;
+  border-bottom:2px;
+  border-left: none;
+  
+}
+.container  input[type="file"]{
+  width: 80%; 
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing:content;
+  border-bottom:2px;
+  border-left: none;
+  
+}
+.container  input[type="date"]{
+  width: 80%; 
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing:content;
+  border-bottom:2px;
+  border-left: none;
+
+}
+.container  input[type="password"] {
+  width: 80%; 
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing:content;
+  border-bottom:2px;
+  border-left: none;
+ 
+}
+
+.container  button {
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000;
+  cursor: pointer;
+  justify-content: center;
+}

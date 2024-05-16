@@ -1,0 +1,39 @@
+.lava{
+    background-color: #002633;;
+}
+
+
+.lava1
+
+{
+
+    float: left;
+    justify-content:center;
+}
+.lava2
+{
+    width: 275px;
+    float: left;
+    height: 150px;
+    text-align: center;
+    border-bottom: 1px solid black;   
+    padding: 30px;
+    border-right: 1px solid black;
+}
+
+.prf3{
+    float: right;
+    width: 275px;
+    height: 150px;
+    text-align: center;
+    border-bottom: 1px solid black;   
+    padding: 30px;
+
+}
+.prf4{
+    width: 275px;
+    height: 150px;
+    text-align: center;  
+    padding: 30px;
+float: right;
+    border-left:none;}

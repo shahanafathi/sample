@@ -1,0 +1,15 @@
+.portfo {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70%;
+    padding: auto;
+}
+.build{
+    margin left:30%;
+    float:left;
+    flex:inline;
+}
+.build 2{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

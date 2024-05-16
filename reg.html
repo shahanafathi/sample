@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="row  ">
+            <div class="col">
+              <img src="bank.png" alt="bank" style="height: 1024px; width:482px;">
+            </div>
+                <div class="col">
+                    <div class="container">
+                    <div class="a row-xl my-3   border  p-5 ">
+                        
+                           <form action="{% url 'register'  %}" method="POST" enctype="multipart/form-data">
+                                {% csrf_token %}
+                                <h3>Register</h3>
+                                    <div class="col ">
+                                        <input type="text" placeholder="Name" name="name" ><br>
+                                        <textarea type="text" name="Address" rows="4" cols="50"></textarea><br>
+                                        <input type="tel" placeholder="Phone number" pattern="[0-9]{10}" name='Phonenumber'><br>
+                                        <input type="text" placeholder="Adhar Number" pattern="[0-9]{4} [0-9]{4} [0-9]{4}" maxlength="14" name='Adharnumber'><br>
+                                        <input type="Password" placeholder="Password" name="Password" ><br>
+                                        <input type="file" name="Image" accept="">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" placeholder="UserName" name="UserName" ><br>
+                                        <input type="Email" placeholder="Email" name="Email"><br>
+                                        <input type="number" placeholder="Age" name='Age'><br>
+                                        <input type="number" placeholder="pincode" name="pincode" pattern="[0-9]{6}">
+                                        <input type="date" placeholder="DOB" id="DOB" name='DOB'><br>
+                                        <input type="number" placeholder="Initial Amount"pattern="[0-9]{4}" min="1000" name='InitialAmount'><br>
+                                        <input type="text" placeholder="Pancard no" pattern="[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}" name='Pancardno'><br>
+                                        <input type="text" placeholder="Account Number" pattern="[0-9]{4} [0-9]{4} [0-9]{4}" name='AccountNumber'><br>
+                                        <input type="password" placeholder="Confirmpassword" name="Confirmpassword" ><br>
+                                    </div>
+                                    <button type="submit">submit</button>
+                                </form> 
+
+                                {{ error }}
+                                <p>  Already Have an account? <a href="{%url 'Login' %}">Login</a></p>  
+                    </div>  
+                </div>       
+            </div>
+        </div>
+           
+   
+    
+</div>
+</body>
+</html>

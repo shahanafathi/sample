@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <!-- <nav>
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src="" alt="" width="30" height="24">
+              </a>
+              <ul>
+                <li>
+                    <a href="">Home</a>
+                  </li>
+                  <li>
+                    <a href="">icon</a>
+                  </li>
+
+                  <li>
+                    <a href="">Deposit  </a>
+                  </li>
+                  <li>
+                    <a href="">Withdrawal</a>
+                  </li>
+                  <li>
+                    <a href="">icon</a>
+                  </li>
+              </ul>
+                
+        </div>
+    </nav> -->
+    <div class="container">
+
+       <label for="Available Balance"><b>Available Balance</b></label>
+        <p>{{ data.InitialAmount}}</p>
+        {{data.Email}}
+        {{data.UserName}}
+        {{ data.Address }}
+        {{ data.DOB }}
+        {{ data.Age }}
+        {{data.Phonenumber}}
+        {{data.AdharNumber}}
+        {{data.Pancardno}}
+        <a href="{% url 'profileedit' id=data.id %}"> edit<i class="bi bi-pencil-square"></i></a>
+    </div>
+</body>
+</html>

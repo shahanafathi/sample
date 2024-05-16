@@ -1,0 +1,11 @@
+.a{
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    opacity: none;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    height: 80px;
+    z-index: 1;
+}

@@ -1,0 +1,22 @@
+.top{
+  
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-left: 85px;
+}
+
+.top li{
+    padding-right: 25px;
+   
+}
+.top1{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    padding-right:10px; ;
+    margin-left: 200px;
+}
+.top1 li{
+    padding-right: 15px;
+}
